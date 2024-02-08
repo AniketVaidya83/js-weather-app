@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App using JS</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar bg-primary p-3">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1 text-light"
+          >WEATHER APP USING JS</span
+        >
+        <span class="navbar-brand mb-0 h1 text-light">VERSION - 2.1</span>
+      </div>
+    </nav>
+
+    <marquee behavior="" direction="" class="mt-5">
+      <h3 class="display-2 text-warning">Check Your City's Weather Report</h3>
+    </marquee>
+
+    <form class="mx-5 p-3">
+      <input
+        type="text"
+        class="form-control rounded-0"
+        placeholder="Enter Your City Name"
+        required
+      />
+
+      <button class="my-3 btn btn-success rounded-0 w-100">Check</button>
+    </form>
+
+    <div class="container p-5">
+      <div class="card p-2 rounded-0 shadow-lg d-none">
+        <div class="d-flex align-items-center justify-content-between">
+          <h1 class="display-6 text-dark"></h1>
+
+          <h2 class="display-3"></h2>
+          <span class="text-center">
+            <img src="" alt="" />
+
+            <p class="fs-5 text-secondary"></p>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
